@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartao</title>
+</head>
+
+<style>
+
+    .cartao{
+        width: 350px;
+        background-color: rgb(214, 214, 214);
+        padding: 20px;
+        margin: 20px auto;
+        border-radius: 5%;
+        font-family: sans-serif;
+        position: relative;
+
+    }
+
+    .p{
+        margin: 0 0 8px 0;
+    }
+
+
+    .bola{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: blue;
+    }
+
+    .bolas{
+        width: 80px;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+    
+    .bola-amarela{
+        background-color: rgba(214, 170, 50, 0.793);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+     .bola-vermelha{
+        background-color: rgba(179, 36, 36, 0.719);
+        position: absolute;
+        right: 25px;
+        bottom: 0;
+    }
+
+</style>
+
+<body>
+
+    <div class="cartao">
+        
+        <h1>Business</h1>
+        <p>643 378653 76873</p>
+        <p>valid thru</p>
+        <p>12/23</p>
+        <p>Lee M. Cardholder</p>    
+        
+
+        <div class="bolas">
+            <div class="bola bola-vermelha">
+
+            </div>
+            <div class="bola bola-amarela">
+
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
