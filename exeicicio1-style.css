@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(160, 186, 235);
+}
+
+.destaque p{
+    background-color: darkorchid;
+}
+
+.menu li{
+    font-weight: bold;
+    padding: 10px;
+    transition: all ease 0.5s;
+}
+
+    .menu li:first-child{
+        background-color: darkslateblue;
+
+    }
+
+    .menu li:last-child{
+        background-color:darkmagenta;
+
+    }
+
+    .menu li:nth-child(even){
+        background-color:deeppink;
+
+    }
+
+    .menu li:hover{
+        background-color:indigo;
+        color: aliceblue;
+        font-size: 20px;
+
+    }
+
+
+h2 + p{
+    color: darkblue;
+}
+
