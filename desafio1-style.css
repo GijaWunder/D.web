@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.coluna1{
+    height: 960px;
+    width: 300px;
+    background-color:rgb(255, 166, 166);
+    float: left;
+}
+
+.coluna2{
+    width: 600px;
+    background-color:rgb(239, 179, 164);
+    height: 960px;
+    float:left;
+}
+
+.coluna3{
+    height: 960px;
+    width: 300px;
+    background-color:rgb(255, 166, 166);
+    float: right;
+}

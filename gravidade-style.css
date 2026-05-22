@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(255, 228, 232);
+
+}
+
+.menu-wrapper{
+    width: 100%;
+    background-color:lightpink;
+}
+
+.logo{
+    width: 100px;
+    margin: 15px 15px;
+}
+
+.page{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.menu{
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sidebar{
+    height: 300px;
+    width: 300px;
+    background-color:rgb(255, 166, 166);
+
+    float: left;
+}
+
+.content{
+    min-height: calc(100vh - 100px - 200px);
+    width: 880px;
+    padding: 30px;
+    background-color:rgb(239, 179, 164);
+    float: right;
+    line-height: 25px;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color:rgb(243, 166, 178);
+    float: left;
+}
+
+.foto{
+    width: 300px;
+    float: left;
+    margin-right: 25px;
+    margin-top: 15px;
+}
