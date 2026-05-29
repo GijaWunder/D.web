@@ -1,0 +1,41 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, aside, footer, main{
+    border: solid 1px #000000;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+}
+
+aside{
+    min-height: calc(100vh - 100px - 150px);
+    width: 20%;
+    float: left;
+    background-color: cornflowerblue;
+}
+
+main{
+    min-height: calc(100vh - 100px - 150px);
+    width: 60%;
+    float: left;
+    background-color: darkblue;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.coluna-rodape{
+    border: solid 1px rgb(25, 25, 89);
+    width: 25%;
+    height: 100%;
+    float: left;
+}
