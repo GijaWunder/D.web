@@ -1,52 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Queries</title>
+    <title>Document</title>
 
-    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+        }
+
+        :root {
+            --cor-primaria: #1D1BFF;
+            --cor-secundaria: #FE0061;
+            --cor-terciaria: #2ecc71;
+            --cor-texto: #333333;
+            --cor-texto-titulo: #fff;
+        }
+
+        body {
+            background-color: var(--cor-primaria);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .conteiner{
+            height: 500px;
+            width: 50%;
+            background-color: #fff;
+            border-radius: 8px;
+
+            display: flex;
+        }
+
+        .caixa{
+            background-color: var(--cor-secundaria);
+            padding: 40px;
+            border-radius: 8px;
+            flex: auto;
+
+            height: 100px;
+        }
+
+    </style>
 
 </head>
+
 <body>
 
+
     <div class="conteiner">
-        <h1>Media Queries</h1>
-        <p>Redimencione a tela para ver as mudanças!</p>
 
-        <div class="conteiner-caixas">
-
-            <div class="caixa caixa-1">
-                
-            </div>
-
-            <div class="caixa caixa-2">
-                
-            </div>
-
-            <div class="caixa caixa-3">
-                
-            </div>
-
-            <div class="caixa caixa-4">
-                
-            </div>
-
-            <div class="caixa caixa-5">
-                
-            </div>
-
-        </div>
-
-        <div class="img img-grande">
-            <img scr="https://placehold.co/1450✕400" alt="">
-        </div>
-
-        <div class="img img-pequena">
-            <img scr="https://placehold.co/500✕400" alt="">
-        </div>
+        <div class="caixa caixa1"> caixa 1 </div>
+        <div class="caixa caixa2"> caixa 2 </div>
+        <div class="caixa caixa3"> caixa 3 </div>
+        <div class="caixa caixa4"> caixa 4 </div>
 
     </div>
-    
+
+
 </body>
+
 </html>
